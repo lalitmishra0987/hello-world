@@ -3,6 +3,7 @@ package com.lalit.testClasses;
 public class A {
    private int id;
    private String name;
+   private String temp;
 
    public A(){
 	   System.out.println("A Called");
