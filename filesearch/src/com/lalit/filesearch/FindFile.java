@@ -20,6 +20,7 @@ public class FindFile {
        FindFile file = new FindFile();
        file.readFileFromFolders(new File("C:\\Images"));
        System.out.println("Just like that");
+       System.out.println("Just like that");
 	}
 
 }
