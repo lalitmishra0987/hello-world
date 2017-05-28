@@ -19,6 +19,7 @@ public class FindFile {
 		// TODO Auto-generated method stub
        FindFile file = new FindFile();
        file.readFileFromFolders(new File("C:\\Images"));
+       System.out.println("Just like that");
 	}
 
 }
