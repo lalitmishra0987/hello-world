@@ -6,7 +6,7 @@ import java.util.List;
 public class FindFile {
 
 	public void readFileFromFolders(File folder){
-		System.out.println(folder.getAbsoluteFile());
+		System.out.println("File Path/t"+folder.getAbsoluteFile());
 		if(folder.isDirectory()){
 			String[] subFolder = folder.list();
 			for(String fileName: subFolder){
