@@ -12,7 +12,7 @@ public class ReverseString {
 			System.out.println("characters in reverse\t"+str.charAt(i));
 			reverse = reverse+str.charAt(i);
 			}
-		System.out.println("reversed string\t"+reverse);
+		System.out.println("reversed string is\t"+reverse);
 	}
 
 }
